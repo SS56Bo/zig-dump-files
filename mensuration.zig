@@ -39,10 +39,10 @@ pub fn main() void {
     rad = 9.6;
     height = 7.0;
     result = volumeOfCylinder(rad, height);
-    std.debug.print("Volume of a sphere of radius {} is {}\n", .{ rad, result });
+    std.debug.print("Volume of a cylinder of radius {} is {}\n", .{ rad, result });
 
     rad = 9.6;
-    height = 2.0;
+    height = 7.0;
     result = volumeOfCone(rad, height);
     std.debug.print("Volume of a cone of radius {} is {}\n", .{ rad, result });
 }
